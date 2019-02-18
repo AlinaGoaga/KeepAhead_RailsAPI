@@ -8,18 +8,28 @@
         null,
         null,
         1,
+        null,
+        null,
         1,
-        2,
-        null,
-        null,
-        null,
-        null,
         1,
         1,
         null,
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        5,
+        null,
+        null,
+        1,
+        null,
         1,
         1,
         null,
@@ -304,7 +314,7 @@
       "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/venues_controller.rb": [
         1,
         1,
-        2,
+        3,
         null,
         null
       ],
@@ -329,6 +339,6 @@
         null
       ]
     },
-    "timestamp": 1550513224
+    "timestamp": 1550530194
   }
 }

@@ -56,6 +56,7 @@ group :development do
 end
 
 group :test do
+  gem 'database_cleaner'
   # Adds support for Capybara system testing and selenium driver
   # Easy installation and use of chromedriver to run system tests with Chrome
 end
