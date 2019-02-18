@@ -14,7 +14,7 @@ GEM
     actionpack (5.2.2)
       actionview (= 5.2.2)
       activesupport (= 5.2.2)
-      rack (~> 2.0)
+      rack (~> 2.0)gem install bundler -v 1.16.1
       rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
