@@ -14,14 +14,14 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-02-18T17:46:20+00:00">2019-02-18T17:46:20+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-02-18T18:07:04+00:00">2019-02-18T18:07:04+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">97.1%</span></span>
+    (<span class="covered_percent"><span class="green">97.14%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>22</b> files in total.
-    <b>69</b> relevant lines. 
-    <span class="green"><b>67</b> lines covered</span> and
+    <b>70</b> relevant lines. 
+    <span class="green"><b>68</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -243,9 +243,9 @@
       <tr>
         <td class="strong"><a href="#9e97674dbcb123cd54a0b817cfd3a5c0b208e805" class="src_link" title="spec/controllers/venues_spec.rb">spec/controllers/venues_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>19</td>
-        <td>10</td>
-        <td>10</td>
+        <td>23</td>
+        <td>11</td>
+        <td>11</td>
         <td>0</td>
         <td>1.1</td>
       </tr>
@@ -1816,8 +1816,8 @@
     <h3>spec/controllers/venues_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>10</b> relevant lines. 
-      <span class="green"><b>10</b> lines covered</span> and
+      <b>11</b> relevant lines. 
+      <span class="green"><b>11</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1843,97 +1843,121 @@
           <code class="ruby">RSpec.describe Api::V1::VenuesController do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="4">
+          
           
           <code class="ruby">  # &quot;[{\&quot;id\&quot;:1,\&quot;name\&quot;:\&quot;Venue2\&quot;,\&quot;address\&quot;:\&quot;Address2\&quot;,\&quot;created_at\&quot;:\&quot;2019-02-10T18:50:30.581Z\&quot;,\&quot;updated_at\&quot;:\&quot;2019-02-10T18:50:30.581Z\&quot;},{\&quot;id\&quot;:2,\&quot;name\&quot;:\&quot;Venue1\&quot;,\&quot;address\&quot;:\&quot;Address1\&quot;,\&quot;created_at\&quot;:\&quot;2019-02-10T18:50:30.581Z\&quot;,\&quot;updated_at\&quot;:\&quot;2019-02-10T18:50:30.581Z\&quot;}]&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
           <code class="ruby">  describe &#39;GET #index&#39; do</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
           
           <code class="ruby">    before do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
           
           <code class="ruby">      get :index</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="10">
+          
           
           <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="10">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    it &#39;returns http success&#39; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby">      expect(response).to have_http_status(:success)</code>
+          <code class="ruby">    # let(:response_double) { double(:response) }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="13">
           <span class="hits">1</span>
           
-          <code class="ruby"></code>
+          <code class="ruby">    it &#39;returns http success&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
-          <code class="ruby">    it &#39;has no objects&#39; do</code>
+          <code class="ruby">      expect(response).to have_http_status(:success)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="15">
-          <span class="hits">1</span>
-          
-          <code class="ruby">      binding.pry</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">      expect(JSON[&#39;venues&#39;].length).to eq(0)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="17">
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &#39;has two objects&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      venues = JSON.parse(response.body)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      binding.pry</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(venues[0][&#39;name&#39;]).to eq(&#39;Venue2&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="23">
           
           
           <code class="ruby">end</code>
