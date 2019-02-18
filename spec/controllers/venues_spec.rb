@@ -1,13 +1,19 @@
-describe 'Venues API' do
-  it 'sends a list of venues' do
+require 'rails_helper'
 
-    get 'http://localhost:3000/api/v1/venues'
+RSpec.describe Api::V1::VenuesController do
+  # "[{\"id\":1,\"name\":\"Venue2\",\"address\":\"Address2\",\"created_at\":\"2019-02-10T18:50:30.581Z\",\"updated_at\":\"2019-02-10T18:50:30.581Z\"},{\"id\":2,\"name\":\"Venue1\",\"address\":\"Address1\",\"created_at\":\"2019-02-10T18:50:30.581Z\",\"updated_at\":\"2019-02-10T18:50:30.581Z\"}]"
+  describe 'GET #index' do
+    before do
+      get :index
+    end
 
-    json = JSON.parse(response.body)
+    it 'returns http success' do
+      expect(response).to have_http_status(:success)
+    end
 
-    expect(response).to be_success
-
-    expect(json['venues'].length).to eq(5)
+    it 'has no objects' do
+      binding.pry
+      expect(JSON['venues'].length).to eq(0)
+    end
   end
-
 end
