@@ -16,7 +16,6 @@ RSpec.describe Api::V1::VenuesController do
 
     it 'has two objects' do
       venues = JSON.parse(response.body)
-      binding.pry
       expect(venues[0]['name']).to eq('Venue2')
     end
   end
