@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/AlinaGoaga/SocialProject_Rails.svg?branch=master)](https://travis-ci.com/AlinaGoaga/SocialProject_Rails)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
