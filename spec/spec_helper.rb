@@ -22,7 +22,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
                                                                  SimpleCov::Formatter::HTMLFormatter
                                                                ])
 SimpleCov.start
-
+# require 'capybara/rails'
 RSpec.configure do |config|
   config.formatter = :documentation
   # rspec-expectations config goes here. You can use an alternate
