@@ -1,7 +1,15 @@
 <h1> heres your venues </h1>
 
+<% @venues.each do |venue| %>
+    <p><%= venue.name %></p>
+    <p><%= venue.address %></p>
+<% end %>
+
+
 <%= form_tag('/venues', method: 'post') do %>
-    <%= label_tag(:location, "Search for:") %>
+    <%= label_tag(:location, "address:") %>
     <%= text_field_tag(:location) %>
+    <%= label_tag(:name, "name:") %>
+    <%= text_field_tag(:name) %>
     <%= submit_tag("Search") %>
 <% end %>
