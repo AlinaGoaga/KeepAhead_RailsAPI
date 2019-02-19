@@ -10,7 +10,7 @@
         null,
         1,
         1,
-        0,
+        1,
         null,
         null,
         null,
@@ -74,6 +74,8 @@
         1,
         null,
         null,
+        1,
+        1,
         1,
         null,
         null,
@@ -285,6 +287,8 @@
         null,
         null,
         null,
+        null,
+        1,
         null
       ],
       "/Users/Huxley/SocialProject_Rails/app/helpers/application_helper.rb": [
@@ -296,6 +300,56 @@
         null
       ],
       "/Users/Huxley/SocialProject_Rails/app/controllers/venues_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/Huxley/SocialProject_Rails/app/environmentVariables.rb": [
+        null,
         1,
         null
       ],
@@ -375,6 +429,6 @@
         null
       ]
     },
-    "timestamp": 1550575716
+    "timestamp": 1550590849
   }
 }

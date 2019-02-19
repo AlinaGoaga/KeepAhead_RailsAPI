@@ -5,7 +5,7 @@ RSpec.describe VenuesController, type: :controller do
     describe '#venues' do 
 
       it 'should have an index page displaying add option' do 
-        get :index
+        visit '/venues'
         expect(page).to have_content('add')
       end 
     end

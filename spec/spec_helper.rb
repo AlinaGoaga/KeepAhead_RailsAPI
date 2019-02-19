@@ -17,12 +17,14 @@ require 'simplecov'
 require 'simplecov-console'
 require 'database_cleaner'
 
+
+
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
                                                                  SimpleCov::Formatter::Console,
                                                                  SimpleCov::Formatter::HTMLFormatter
                                                                ])
 SimpleCov.start
-# require 'capybara/rails'
+
 RSpec.configure do |config|
   config.formatter = :documentation
   # rspec-expectations config goes here. You can use an alternate
@@ -111,4 +113,6 @@ RSpec.configure do |config|
   #   # test failures related to randomization by passing the same `--seed` value
   #   # as the one that triggered the failure.
   #   Kernel.srand config.seed
+
+    
 end
