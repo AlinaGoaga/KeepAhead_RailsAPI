@@ -13,6 +13,9 @@ RSpec.describe Api::V1::VenuesController do
       get :index
       venues = JSON.parse(response.body)
       expect(venues[0]['name']).to eq('Venue1')
+      expect(venues[0]['address']).to eq('Address1')
+      expect(venues[1]['name']).to eq('Venue2')
+      expect(venues[1]['address']).to eq('Address2')
     end
 
     it 'returns all objects' do
