@@ -1,7 +1,9 @@
 <h1> heres your venues </h1>
 
 <%= form_tag('/venues', method: 'post') do %>
-    <%= label_tag(:location, "Search for:") %>
+    <%= label_tag(:location, "Location:") %>
     <%= text_field_tag(:location) %>
+    <%= label_tag(:name, "Name:") %>
+    <%= text_field_tag(:name) %>
     <%= submit_tag("Search") %>
 <% end %>

@@ -9,26 +9,30 @@ class VenuesController < ApplicationController
     end 
 
     def create
-     
+        address = params['location']
+        location = find_address(address)
 
-        address = params[location]
-        p '********'
-        p address
-        clean_address(address)
-        find_address(address)
+        venue = Venue.new
+        venue.name = params['name']
+        venue.address = params['location']
+        venue.lattitude = location['lat']
+        venue.longitude = location['lng']
+        if venue.save
+            redirect_to '/venues'
+        end
     end 
 
     def find_address(address = '1600+Amphitheatre+Parkway,+Mountain+View')
        location = ask_google_api(address)
+       return location
        
     end 
 
     private 
 
     def ask_google_api(address)
-
-        url = URI.parse("https://maps.googleapis.com/maps/api/geocode/json?address=address=1600+Amphitheatre+Parkway,
-        +Mountain+View&key=#{GOOGLE_API_KEY}")
+        address = clean_address(address)
+        url = URI.parse("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=#{GOOGLE_API_KEY}")
 
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true
@@ -41,7 +45,6 @@ class VenuesController < ApplicationController
     
 
     def clean_address(address)
-        p address
         address = address.gsub(/\s+/, "+")
     end
 end
