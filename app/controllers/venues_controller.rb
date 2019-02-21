@@ -5,20 +5,20 @@ require 'json'
 class VenuesController < ApplicationController
 
     def index 
-        
+        @venues = Venue.all
     end 
 
     def create
-        address = params['location']
-        location = find_address(address)
 
+        lat_long = find_address(params['name'])
+    
         venue = Venue.new
         venue.name = params['name']
         venue.address = params['location']
-        venue.lattitude = location['lat']
-        venue.longitude = location['lng']
+        venue.lattitude = lat_long['lat']
+        venue.longitude = lat_long['lng']
         if venue.save
-            redirect_to '/venues'
+          redirect_to '/venues'
         end
     end 
 
@@ -27,6 +27,7 @@ class VenuesController < ApplicationController
        return location
        
     end 
+
 
     private 
 
@@ -47,4 +48,6 @@ class VenuesController < ApplicationController
     def clean_address(address)
         address = address.gsub(/\s+/, "+")
     end
+
+  
 end
