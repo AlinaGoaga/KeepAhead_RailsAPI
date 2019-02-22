@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 class Api::V1::DonationsController < ApplicationController
-
-
   def index
     venue = Venue.find(params[:venue_id])
     venue_donations = venue.donations
