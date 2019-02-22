@@ -1,17 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/spec/controllers/donations_spec.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/donations_spec.rb": [
+        null,
+        null,
         1,
         null,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
         1,
         1,
         1,
@@ -19,21 +14,19 @@
         1,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/spec/rails_helper.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/rails_helper.rb": [
+        null,
+        null,
         null,
         1,
         1,
@@ -96,26 +89,36 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/environment.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/environment.rb": [
+        null,
+        null,
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/application.rb": [
-        1,
-        null,
-        1,
-        null,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/application.rb": [
         null,
         null,
         1,
         null,
         1,
+        null,
+        null,
+        null,
         1,
         null,
         1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -124,13 +127,17 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/boot.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/boot.rb": [
+        null,
+        null,
         1,
         null,
         1,
         1
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/environments/test.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/environments/test.rb": [
+        null,
+        null,
         1,
         null,
         null,
@@ -178,7 +185,9 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/application_controller_renderer.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/application_controller_renderer.rb": [
+        null,
+        null,
         null,
         null,
         null,
@@ -188,7 +197,9 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/assets.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/assets.rb": [
+        null,
+        null,
         null,
         null,
         null,
@@ -204,32 +215,7 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/backtrace_silencers.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/content_security_policy.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -240,20 +226,53 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/cookies_serializer.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/content_security_policy.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
         null,
         null,
         null,
         null,
         1
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/filter_parameter_logging.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
         null,
         null,
         null,
         1
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/inflections.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -264,6 +283,16 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/mime_types.rb": [
         null,
         null,
         null,
@@ -271,13 +300,9 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/mime_types.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/wrap_parameters.rb": [
         null,
         null,
-        null,
-        null
-      ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -293,7 +318,9 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/config/routes.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/routes.rb": [
+        null,
+        null,
         1,
         null,
         1,
@@ -305,17 +332,13 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/app/helpers/application_helper.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/helpers/application_helper.rb": [
+        null,
+        null,
         1,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/app/controllers/api/v1/donations_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/donations_controller.rb": [
         null,
         null,
         1,
@@ -323,16 +346,26 @@
         1,
         1,
         1,
-        1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/app/controllers/application_controller.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/application_controller.rb": [
+        null,
+        null,
         1,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/spec/controllers/venues_spec.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/venues_spec.rb": [
+        null,
+        null,
         1,
         null,
         1,
@@ -366,9 +399,10 @@
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/app/controllers/api/v1/venues_controller.rb": [
-        1,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/venues_controller.rb": [
         null,
+        null,
+        1,
         1,
         3,
         null,
@@ -376,41 +410,48 @@
         1,
         0,
         null,
-        null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/spec/models/donation_spec.rb": [
-        1,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/models/donation_spec.rb": [
+        null,
         null,
         1,
-        1,
-        null
-      ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/app/models/donation.rb": [
+        null,
         1,
         1,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/app/models/application_record.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/models/donation.rb": [
+        null,
+        null,
         1,
         1,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/spec/models/venue_spec.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/models/application_record.rb": [
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/models/venue_spec.rb": [
+        null,
+        null,
         null,
         null,
         null,
         null,
         null
       ],
-      "/Users/alexalikhani/Projects/SocialProject_Rails/socialproject/app/models/venue.rb": [
-        1,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/models/venue.rb": [
+        null,
         null,
         1,
-        null,
+        1,
         null
       ]
     },
-    "timestamp": 1550593350
+    "timestamp": 1550658787
   }
 }
