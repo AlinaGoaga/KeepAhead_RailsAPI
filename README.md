@@ -80,10 +80,7 @@ $ bundle
 ```
 4. You can see the different directories, with the `ls` command.
 
-
-```
-
-### Run the tests ###
+## Run the tests
 
 1. Check that the codes are passing the test. From the root *SocialProject_Rails* directory, run the *spec*.<br/>
 You can check all the files in one go:
@@ -116,7 +113,7 @@ the front end using React.
 
 We were following a TDD approach, in which we would write tests for code, before writing the code itself. This ensured that the tests could help design the code, and also keep everything functioning well.
 
-##Controllers, models and their responsibilities
+## Controllers, models and their responsibilities
 
 - Donations Controller - It contains methods for displaying a venue and any associated donations. Also a method for creating a new donation which is allocated to that venue
 
