@@ -37,12 +37,23 @@ RSpec.describe Api::V1::VenuesController do
     end
   end
 
-  describe 'POST /' do
-    it 'responds with 200' do
-      post :create, params: { venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
+  describe 'POST /can differentiate between signin and signup post request' do
+    it 'can signup post request' do 
+      post :create, params: { type: 'signup', venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
       venues = JSON.parse(response.body)
       expect(venues['name']).to eq('Venue1')
       expect(venues['address']).to eq('Address1')
+    end
+
+    before do 
+      post :create, params: { type: 'signup', venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
+    end
+
+    it 'can differentiate between signin post request' do 
+      post :create, params: { type: 'signin', venue: { email: 'Email1', password: 'Password1' } }
+      venue = JSON.parse(response.body)
+      expect(venue[0]['name']).to eq('Venue1')
+      expect(venue[0]['address']).to eq('Address1')
     end
 
     it 'creates a venue' do
@@ -50,4 +61,5 @@ RSpec.describe Api::V1::VenuesController do
       expect(Venue.find_by(name: 'Venue1')).to be
     end
   end
+ 
 end
