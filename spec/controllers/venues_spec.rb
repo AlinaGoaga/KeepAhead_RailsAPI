@@ -56,10 +56,19 @@ RSpec.describe Api::V1::VenuesController do
       expect(venue[0]['address']).to eq('Address1')
     end
 
+    it 'should send a bad request if password or email is wrong' do
+      post :create, params: { type: 'signin', venue: { email: 'Email1', password: 'wrong password' } } 
+
+      p response.body
+      expect(response['status']).to eq(400)
+    end
+
     it 'creates a venue' do
       post :create, params: { venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
       expect(Venue.find_by(name: 'Venue1')).to be
     end
+
+ 
   end
  
 end
