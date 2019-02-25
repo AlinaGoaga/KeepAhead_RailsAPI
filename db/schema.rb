@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_190_222_155_710) do
+ActiveRecord::Schema.define(version: 20_190_225_083_849) do
   # These are extensions that must be enabled in order to support this database
   enable_extension 'plpgsql'
 
@@ -20,6 +20,10 @@ ActiveRecord::Schema.define(version: 20_190_222_155_710) do
     t.bigint 'venue_id'
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
+    t.string 'email'
+    t.string 'token'
+    t.string 'currency'
+    t.string 'description'
     t.index ['venue_id'], name: 'index_donations_on_venue_id'
   end
 
