@@ -16,4 +16,12 @@ class Api::V1::DonationsController < ApplicationController
     donation = venue_donations.create!(new_donation.merge(venue: venue))
     render json: donation
   end
+
+  def update
+    donation = Donation.find(params[:id])
+    donation.update(redeemed: params[:redeemed])
+
+    render json: donation
+  end
+
 end
