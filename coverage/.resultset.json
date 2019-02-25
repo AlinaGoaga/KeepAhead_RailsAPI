@@ -1,27 +1,10 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/donations_spec.rb": [
-        null,
-        null,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/charges_controller_spec.rb": [
         1,
         null,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
         null
       ],
       "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/rails_helper.rb": [
@@ -95,6 +78,9 @@
         null,
         1,
         null,
+        1,
+        1,
+        null,
         null,
         1
       ],
@@ -140,6 +126,10 @@
         null,
         1,
         null,
+        1,
+        1
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/app_environment_variables.rb": [
         1,
         1
       ],
@@ -308,6 +298,14 @@
         null,
         null
       ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/stripe.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
       "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/wrap_parameters.rb": [
         null,
         null,
@@ -349,9 +347,57 @@
         1,
         null
       ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/charges_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/donations_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/donations_controller.rb": [
-        null,
-        null,
         1,
         1,
         1,
@@ -361,10 +407,30 @@
         null,
         1,
         1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        null,
         1,
         1,
+        null,
+        null,
         1,
         1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -430,8 +496,6 @@
         null
       ],
       "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/venues_controller.rb": [
-        null,
-        null,
         1,
         1,
         3,
@@ -488,6 +552,6 @@
         null
       ]
     },
-    "timestamp": 1550852352
+    "timestamp": 1551085077
   }
 }
