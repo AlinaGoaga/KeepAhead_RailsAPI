@@ -20,7 +20,6 @@ class Api::V1::DonationsController < ApplicationController
   def update
     donation = Donation.find(params[:id])
     donation.update(redeemed: params[:redeemed])
-
     render json: donation
   end
 

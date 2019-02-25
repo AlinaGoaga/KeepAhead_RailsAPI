@@ -15,11 +15,6 @@ module Socialproject
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
-    # config.action_dispatch.access_control_headers = {
-    #   'Access-Control-Allow-Origin' => '*',
-    #   'Access-Control-Request-Method' => %w[GET POST OPTIONS].join(',')
-    # }
-
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
