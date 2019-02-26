@@ -33,7 +33,7 @@ class VenuesController < ApplicationController
 
     def ask_google_api(address)
         address = clean_address(address)
-        url = URI.parse("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=#{GOOGLE_API_KEY}")
+        url = URI.parse("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=#{AIzaSyBTwSpUW2WsDWTdODpCdxNMs1POdmpyI44}")
 
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true
