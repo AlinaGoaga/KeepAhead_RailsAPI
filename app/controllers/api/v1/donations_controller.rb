@@ -13,6 +13,13 @@ class Api::V1::DonationsController < ApplicationController
     render json: donation
   end
 
+
+  def update
+    donation = Donation.find(params[:id])
+    donation.update(redeemed: params[:redeemed])
+    render json: donation
+  end
+
   private
 
   def donation_params
@@ -32,4 +39,5 @@ class Api::V1::DonationsController < ApplicationController
       currency: params[:currency]
     )
   end
+
 end
