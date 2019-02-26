@@ -52,7 +52,6 @@
         1,
         4,
         null,
-        null,
         1,
         1,
         1,
@@ -63,8 +62,6 @@
         1,
         1,
         null,
-        1,
-        1,
         null,
         null,
         1,
@@ -137,6 +134,8 @@
         1,
         null,
         null,
+        1,
+        1,
         1,
         null,
         null,
@@ -276,12 +275,10 @@
         null,
         null
       ],
+
       "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/backtrace_silencers.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
+
+
         null,
         null,
         null,
@@ -316,26 +313,38 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/cookies_serializer.rb": [
         null,
         null,
+=======
+      "/Users/Huxley/SocialProject_Rails/config/initializers/cookies_serializer.rb": [
+>>>>>>> Geolocation
         null,
         null,
         null,
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
+=======
+      "/Users/Huxley/SocialProject_Rails/config/initializers/filter_parameter_logging.rb": [
+>>>>>>> Geolocation
         null,
         null,
         null,
         1
       ],
+<<<<<<< HEAD
       "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/inflections.rb": [
         null,
         null,
+=======
+      "/Users/Huxley/SocialProject_Rails/config/initializers/inflections.rb": [
+>>>>>>> Geolocation
         null,
         null,
         null,
@@ -394,6 +403,8 @@
         null,
         null,
         null,
+        null,
+        1,
         null
       ],
       "/Users/Huxley/rails_swap/SocialProject_Rails/app/helpers/application_helper.rb": [
