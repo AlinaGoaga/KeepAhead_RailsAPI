@@ -6,14 +6,15 @@ class SignupController < ApplicationController
   
   def create
     new_venue = params[:venue].permit(:name, :address, :email, :password)
+  
 
-    lat_long = find_address(params['address'])
+    lat_long = find_address(new_venue['address'])
   
       venue = Venue.new
-      venue.name = params['name']
-      venue.email = params['email']
-      venue.password = params['password']
-      venue.address = params['address']
+      venue.name = new_venue['name']
+      venue.email = new_venue['email']
+      venue.password = new_venue['password']
+      venue.address = new_venue['address']
       venue.lattitude = lat_long['lat']
       venue.longitude = lat_long['lng']
         if venue.save
@@ -32,7 +33,7 @@ class SignupController < ApplicationController
 
     def ask_google_api(address)
         address = clean_address(address)
-        url = URI.parse("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=#{AIzaSyBTwSpUW2WsDWTdODpCdxNMs1POdmpyI44}")
+        url = URI.parse("https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=AIzaSyBTwSpUW2WsDWTdODpCdxNMs1POdmpyI44")
 
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true
