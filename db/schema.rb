@@ -36,6 +36,8 @@ ActiveRecord::Schema.define(version: 2019_02_25_173206) do
     t.datetime "updated_at", null: false
     t.string "email"
     t.string "password"
+    t.float "lattitude"
+    t.float "longitude"
   end
 
   add_foreign_key "donations", "venues"

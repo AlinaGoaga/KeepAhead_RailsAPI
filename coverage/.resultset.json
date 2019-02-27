@@ -1,13 +1,13 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/charges_controller_spec.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/controllers/charges_controller_spec.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/rails_helper.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/rails_helper.rb": [
         null,
         null,
         null,
@@ -68,11 +68,13 @@
         null,
         null,
         1,
+        1,
+        1,
         null,
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/environment.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/environment.rb": [
         null,
         null,
         null,
@@ -84,7 +86,7 @@
         null,
         1
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/application.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/application.rb": [
         null,
         null,
         1,
@@ -101,11 +103,6 @@
         1,
         null,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         1,
         1,
@@ -121,7 +118,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/boot.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/boot.rb": [
         null,
         null,
         1,
@@ -129,11 +126,7 @@
         1,
         1
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/app_environment_variables.rb": [
-        1,
-        1
-      ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/environments/test.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/environments/test.rb": [
         null,
         null,
         1,
@@ -183,7 +176,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/application_controller_renderer.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -195,7 +188,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/assets.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -213,7 +206,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/backtrace_silencers.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -224,7 +217,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/content_security_policy.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -253,7 +246,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/cookies_serializer.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
@@ -262,7 +255,7 @@
         null,
         1
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/filter_parameter_logging.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
@@ -270,7 +263,7 @@
         null,
         1
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/inflections.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -290,7 +283,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/mime_types.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/mime_types.rb": [
         null,
         null,
         null,
@@ -298,7 +291,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/stripe.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/stripe.rb": [
         1,
         null,
         null,
@@ -306,7 +299,7 @@
         null,
         1
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/wrap_parameters.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -324,9 +317,11 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/routes.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/config/routes.rb": [
         1,
         null,
+        1,
+        1,
         1,
         null,
         1,
@@ -338,13 +333,17 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/helpers/application_helper.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/helpers/application_helper.rb": [
         null,
         null,
         1,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/charges_controller.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/helpers/venues_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/controllers/charges_controller.rb": [
         1,
         1,
         null,
@@ -371,7 +370,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/donations_spec.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/controllers/donations_spec.rb": [
         null,
         null,
         1,
@@ -386,43 +385,6 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/donations_controller.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        0,
         null,
         null,
         null,
@@ -431,23 +393,164 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/application_controller.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/controllers/api/v1/donations_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/controllers/application_controller.rb": [
         null,
         null,
         1,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/venues_spec.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/controllers/signin_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/controllers/signin_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/controllers/signup_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/controllers/signup_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/controllers/venues_spec.rb": [
         null,
         null,
         1,
         null,
         1,
         1,
-        1,
-        1,
         null,
-        1,
+        null,
+        null,
         null,
         null,
         1,
@@ -477,62 +580,102 @@
         null,
         null,
         null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
         null,
         null,
-        1,
-        1,
-        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/venues_controller.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/controllers/api/v1/venues_controller.rb": [
         1,
         1,
-        3,
+        2,
         null,
         null,
         1,
-        2,
-        2,
-        2,
+        null,
+        null,
         null,
         null,
         1,
         0,
+        0,
+        null,
+        null,
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/models/donation_spec.rb": [
-        null,
-        null,
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/helpers/venues_helper_spec.rb": [
         1,
         null,
-        1,
-        1,
-        null
-      ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/models/donation.rb": [
         null,
         null,
-        1,
-        1,
-        null
-      ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/models/application_record.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         1,
         1,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/models/venue_spec.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/models/donation_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/models/donation.rb": [
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/models/application_record.rb": [
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/spec/models/venue_spec.rb": [
         null,
         null,
         null,
@@ -541,7 +684,7 @@
         null,
         null
       ],
-      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/models/venue.rb": [
+      "/Users/jayway/makers/projects/final-project/SocialProject_Rails/app/models/venue.rb": [
         null,
         null,
         1,
@@ -549,6 +692,6 @@
         null
       ]
     },
-    "timestamp": 1551095992
+    "timestamp": 1551264961
   }
 }
