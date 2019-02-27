@@ -8,10 +8,12 @@ class Api::V1::VenuesController < ApplicationController
     bounds = make_bounds(user_location)
 
     venues = Venue.where('lattitude BETWEEN ? AND ?',bounds[:lat_lower], bounds[:lat_upper]).where('longitude BETWEEN ? AND ?', bounds[:long_lower], bounds[:long_upper]).as_json 
-    p '*****'
+    
     venues = venues.each do |venue|
       venue[:distance] = haversineDistanceBetween(user_location, venue)
     end 
+
+    venues.sort_by{|venue| venue[:distance] }
   
     #venues = venues.map{|venue| venue[:distance] = 1}
     ## go through add distance property to each object
@@ -50,11 +52,7 @@ class Api::V1::VenuesController < ApplicationController
       lon1 = user[:long].to_f.round(2)
       lat2 = venue['lattitude'].to_f.round(2)
       lon2 = venue['longitude'].to_f.round(2)
-      p 'hey hey'
-      p venue
-      p lat2
-      p lon2
-
+      
       dLat = to_rad(lat2 - lat1);
       dLon = to_rad(lon2 - lon1);
       a = Math.sin(dLat/2) * Math.sin(dLat/2) +
