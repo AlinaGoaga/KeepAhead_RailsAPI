@@ -21,11 +21,11 @@ ActiveRecord::Schema.define(version: 2019_02_25_173206) do
     t.bigint "venue_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.boolean "redeemed"
     t.string "email"
     t.string "token"
     t.string "currency"
     t.string "description"
+    t.boolean "redeemed"
     t.index ["venue_id"], name: "index_donations_on_venue_id"
   end
 
@@ -34,10 +34,10 @@ ActiveRecord::Schema.define(version: 2019_02_25_173206) do
     t.string "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "email"
-    t.string "password"
     t.float "lattitude"
     t.float "longitude"
+    t.string "email"
+    t.string "password"
   end
 
   add_foreign_key "donations", "venues"
