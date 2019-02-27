@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Api::V1::VenuesController < ApplicationController
   def index
     render json: Venue.includes(:donations).all.to_json(include: :donations)
@@ -11,7 +9,8 @@ class Api::V1::VenuesController < ApplicationController
   end
 
   def show
-    @venue = Venue.find(params[:id])
+    venue = Venue.find(params[:id])
+    render json: venue
   end
 
  

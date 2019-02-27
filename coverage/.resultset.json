@@ -1,6 +1,7 @@
 {
   "RSpec": {
     "coverage": {
+
       "/Users/Huxley/rails_swap/SocialProject_Rails/spec/controllers/venues_spec.rb": [
         null,
         null,
@@ -72,6 +73,10 @@
         null,
         null,
         null,
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/charges_controller_spec.rb": [
+        1,
+        null,
+        1,
         null
       ],
       "/Users/Huxley/rails_swap/SocialProject_Rails/spec/rails_helper.rb": [
@@ -147,6 +152,9 @@
         null,
         1,
         null,
+        1,
+        1,
+        null,
         null,
         1
       ],
@@ -195,7 +203,9 @@
         1,
         1
       ],
+
       "/Users/Huxley/rails_swap/SocialProject_Rails/config/environments/test.rb": [
+
         null,
         null,
         1,
@@ -313,38 +323,21 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/cookies_serializer.rb": [
-        null,
-        null,
-=======
+
       "/Users/Huxley/SocialProject_Rails/config/initializers/cookies_serializer.rb": [
->>>>>>> Geolocation
+
         null,
         null,
         null,
         null,
         1
       ],
-<<<<<<< HEAD
-      "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/filter_parameter_logging.rb": [
-        null,
-        null,
-=======
-      "/Users/Huxley/SocialProject_Rails/config/initializers/filter_parameter_logging.rb": [
->>>>>>> Geolocation
+
         null,
         null,
         null,
         1
       ],
-<<<<<<< HEAD
-      "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/inflections.rb": [
-        null,
-        null,
-=======
-      "/Users/Huxley/SocialProject_Rails/config/initializers/inflections.rb": [
->>>>>>> Geolocation
         null,
         null,
         null,
@@ -370,7 +363,15 @@
         null,
         null
       ],
-      "/Users/Huxley/rails_swap/SocialProject_Rails/config/initializers/wrap_parameters.rb": [
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/stripe.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -388,11 +389,11 @@
         null,
         null
       ],
+
       "/Users/Huxley/rails_swap/SocialProject_Rails/config/routes.rb": [
         null,
         null,
         1,
-        null,
         null,
         1,
         null,
@@ -409,8 +410,87 @@
       ],
       "/Users/Huxley/rails_swap/SocialProject_Rails/app/helpers/application_helper.rb": [
         null,
+        1,
         null,
         1,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/spec/controllers/donations_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/donations_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/Huxley/rails_swap/SocialProject_Rails/app/controllers/api/v1/venues_controller.rb": [
@@ -450,10 +530,9 @@
         1,
         2,
         null,
-        2,
-        null,
-        null,
-        2,
+        null
+      ],
+      "/Users/alinagoaga/Desktop/skills-workshops/week-10/SocialProject_Rails/app/controllers/api/v1/venues_controller.rb": [
         1,
         1,
         null,
