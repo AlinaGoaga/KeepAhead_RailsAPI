@@ -36,6 +36,15 @@ RSpec.describe Api::V1::VenuesController do
     end
   end
 
+  describe 'POST/' do
+    it 'receives lat and long' do
+      post :create, params: { location: { lat: '51.52', long: '-0.07' } }
+      user_location = JSON.parse(response.body)
+      expect(user_location['lat']).to eq('51.52')
+      expect(user_location['long']).to eq('-0.07')
+    end
+  end
+
   # describe 'POST /can differentiate between signin and signup post request' do
   #   it 'can signup post request' do
   #     post :create, params: { type: 'signup', venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
@@ -67,7 +76,5 @@ RSpec.describe Api::V1::VenuesController do
   #     expect(Venue.find_by(name: 'Venue1')).to be
   #   end
 
-
   # end
-
 end

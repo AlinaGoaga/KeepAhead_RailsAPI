@@ -4,14 +4,12 @@ class Api::V1::VenuesController < ApplicationController
   end
 
   def create
-
-
+    user_location = params[:location].permit(:lat, :long)
+    render json: user_location
   end
 
   def show
     venue = Venue.find(params[:id])
     render json: venue
   end
-
- 
 end
