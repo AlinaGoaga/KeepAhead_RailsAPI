@@ -59,7 +59,7 @@ class Api::V1::VenuesController < ApplicationController
           Math.cos(to_rad(lat1)) * Math.cos(to_rad(lat2)) *
           Math.sin(dLon/2) * Math.sin(dLon/2);
       c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-    return d = 6371 * c; 
+    return (6371 * c).to_f.round(2) ; 
   end
 
  
