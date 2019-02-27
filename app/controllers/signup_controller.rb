@@ -3,13 +3,13 @@ require 'json'
 
 
 class SignupController < ApplicationController
-  
+
   def create
-    new_venue = params[:venue].permit(:name, :address, :email, :password)
-  
+    new_venue = params[:venue].permit(:name, :address, :email, :password, :lattitude, :longitude)
+
 
     lat_long = find_address(new_venue['address'])
-  
+
       venue = Venue.new
       venue.name = new_venue['name']
       venue.email = new_venue['email']
@@ -23,12 +23,12 @@ class SignupController < ApplicationController
   end
 
 
-  private 
+  private
 
     def find_address(address = '1600+Amphitheatre+Parkway,+Mountain+View')
       location = ask_google_api(address)
       return location
-    end 
+    end
 
 
     def ask_google_api(address)
@@ -43,7 +43,7 @@ class SignupController < ApplicationController
         res = JSON.parse(res.body)
         res['results'][0]['geometry']['location']
     end
-    
+
 
     def clean_address(address)
         address = address.gsub(/\s+/, "+")
