@@ -14,7 +14,8 @@ class Api::V1::VenuesController < ApplicationController
       venue[:distance] = haversineDistanceBetween(user_location, venue)
     end 
 
-    venues.sort_by{|venue| venue[:distance] }
+    venues.sort_by{|venue| venue[:distance] }.reverse
+
 
     render json: venues
   end
