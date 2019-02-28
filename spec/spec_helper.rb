@@ -19,8 +19,6 @@ require 'simplecov'
 require 'simplecov-console'
 require 'database_cleaner'
 
-
-
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
                                                                  SimpleCov::Formatter::Console,
                                                                  SimpleCov::Formatter::HTMLFormatter
@@ -115,6 +113,4 @@ RSpec.configure do |config|
   #   # test failures related to randomization by passing the same `--seed` value
   #   # as the one that triggered the failure.
   #   Kernel.srand config.seed
-
-    
 end
