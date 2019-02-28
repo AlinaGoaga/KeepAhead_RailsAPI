@@ -15,5 +15,7 @@ RSpec.describe SigninController, type: :controller do
       post :create, params: { venue: { email: 'Email1', password: 'Password123' } }
       expect(response).to have_http_status(404)
     end
+
   end
+  
 end

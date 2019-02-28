@@ -6,6 +6,7 @@ class SigninController < ApplicationController
       venue = Venue.where('email = ? AND password = ?', credentials[:email], credentials[:password])
       render json: venue
     else
+      # render json: {status:400}
       head 404, 'content_type' => 'text/plain'
     end
   end

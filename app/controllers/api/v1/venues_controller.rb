@@ -1,4 +1,5 @@
 class Api::V1::VenuesController < ApplicationController
+  
   def index
     render json: Venue.includes(:donations).all.to_json(include: :donations)
   end
@@ -8,17 +9,17 @@ class Api::V1::VenuesController < ApplicationController
     bounds = make_bounds(user_location)
 
     venues = Venue.where('lattitude BETWEEN ? AND ?',bounds[:lat_lower], bounds[:lat_upper]).where('longitude BETWEEN ? AND ?', bounds[:long_lower], bounds[:long_upper]).as_json 
-    p '*****'
+    
     venues = venues.each do |venue|
       venue[:distance] = haversineDistanceBetween(user_location, venue)
     end 
-  
-    #venues = venues.map{|venue| venue[:distance] = 1}
-    ## go through add distance property to each object
-    ## distance property val should be the result of haversine
+
+    venues.sort_by{|venue| venue[:distance] }
+
     render json: venues
   end
-
+  
+  ## dont think we need this 
   def show
     venue = Venue.find(params[:id])
     render json: venue
@@ -50,18 +51,14 @@ class Api::V1::VenuesController < ApplicationController
       lon1 = user[:long].to_f.round(2)
       lat2 = venue['lattitude'].to_f.round(2)
       lon2 = venue['longitude'].to_f.round(2)
-      p 'hey hey'
-      p venue
-      p lat2
-      p lon2
-
+      
       dLat = to_rad(lat2 - lat1);
       dLon = to_rad(lon2 - lon1);
       a = Math.sin(dLat/2) * Math.sin(dLat/2) +
           Math.cos(to_rad(lat1)) * Math.cos(to_rad(lat2)) *
           Math.sin(dLon/2) * Math.sin(dLon/2);
       c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-    return d = 6371 * c; 
+    return (6371 * c).to_f.round(2) ; 
   end
 
  
