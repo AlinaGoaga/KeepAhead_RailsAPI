@@ -29,8 +29,8 @@ class Api::V1::VenuesController < ApplicationController
   private
 
   def make_bounds(user_location)
-    long_bound = 0.02
-    lat_bound = 0.03
+    long_bound = 0.04 #0.02
+    lat_bound = 0.06 #0.03
     user_lat = user_location['lat'].to_f.round(2)
     user_long = user_location['long'].to_f.round(2)
 
