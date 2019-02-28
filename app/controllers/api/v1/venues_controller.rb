@@ -13,8 +13,12 @@ class Api::V1::VenuesController < ApplicationController
     venues = venues.each do |venue|
       venue[:distance] = haversineDistanceBetween(user_location, venue)
     end 
+    p 'start *****'
+    p venues
 
-    venues.sort_by{|venue| venue[:distance] }.reverse
+    venues = venues.sort_by{|venue| venue[:distance]}
+    p 'sorted'
+    p venues
 
 
     render json: venues
@@ -29,8 +33,8 @@ class Api::V1::VenuesController < ApplicationController
   private
 
   def make_bounds(user_location)
-    long_bound = 0.04 #0.02
-    lat_bound = 0.06 #0.03
+    long_bound = 0.08 #0.02
+    lat_bound = 0.08 #0.03
     user_lat = user_location['lat'].to_f.round(2)
     user_long = user_location['long'].to_f.round(2)
 
@@ -48,10 +52,10 @@ class Api::V1::VenuesController < ApplicationController
   end
 
   def haversineDistanceBetween(user, venue)
-      lat1 = user[:lat].to_f.round(2)
-      lon1 = user[:long].to_f.round(2)
-      lat2 = venue['lattitude'].to_f.round(2)
-      lon2 = venue['longitude'].to_f.round(2)
+      lat1 = user[:lat].to_f
+      lon1 = user[:long].to_f
+      lat2 = venue['lattitude'].to_f
+      lon2 = venue['longitude'].to_f
       
       dLat = to_rad(lat2 - lat1);
       dLon = to_rad(lon2 - lon1);
