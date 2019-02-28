@@ -14,10 +14,7 @@ class Api::V1::VenuesController < ApplicationController
     end 
 
     venues.sort_by{|venue| venue[:distance] }
-  
-    #venues = venues.map{|venue| venue[:distance] = 1}
-    ## go through add distance property to each object
-    ## distance property val should be the result of haversine
+
     render json: venues
   end
 
