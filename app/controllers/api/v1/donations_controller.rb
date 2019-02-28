@@ -13,7 +13,6 @@ class Api::V1::DonationsController < ApplicationController
     render json: donation
   end
 
-
   def update
     donation = Donation.find(params[:id])
     donation.update(redeemed: params[:redeemed])
@@ -35,9 +34,7 @@ class Api::V1::DonationsController < ApplicationController
     charge = Stripe::Charge.create(
       customer: customer.id,
       amount: params[:amount],
-      description: params[:description],
       currency: params[:currency]
     )
   end
-
 end
