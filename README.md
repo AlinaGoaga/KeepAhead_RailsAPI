@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/AlinaGoaga/KeepAhead_SocialProject_Rails.svg?branch=master)](https://travis-ci.com/AlinaGoaga/KeepAhead_SocialProject_Rails)
+
 # Keep Ahead
 
 ## Description
