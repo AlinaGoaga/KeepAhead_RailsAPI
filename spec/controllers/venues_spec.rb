@@ -4,10 +4,10 @@ require 'rails_helper'
 
 RSpec.describe Api::V1::VenuesController do
   describe 'GET #index' do
-    # it 'returns http success' do
-    #   get :index
-    #   expect(response).to have_http_status(:success)
-    # end
+    it 'returns http success' do
+      get :index
+      expect(response).to have_http_status(:success)
+    end
 
     it 'orders venues by id' do
       Venue.create(name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1')
@@ -44,37 +44,4 @@ RSpec.describe Api::V1::VenuesController do
       # expect(user_location['long']).to eq('-0.07')
     end
   end
-
-  # describe 'POST /can differentiate between signin and signup post request' do
-  #   it 'can signup post request' do
-  #     post :create, params: { type: 'signup', venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
-  #     venues = JSON.parse(response.body)
-  #     expect(venues['name']).to eq('Venue1')
-  #     expect(venues['address']).to eq('Address1')
-  #   end
-  #
-  #   before do
-  #     post :create, params: { type: 'signup', venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
-  #   end
-  #
-  #   it 'can differentiate between signin post request' do
-  #     post :create, params: { type: 'signin', venue: { email: 'Email1', password: 'Password1' } }
-  #     venue = JSON.parse(response.body)
-  #     expect(venue[0]['name']).to eq('Venue1')
-  #     expect(venue[0]['address']).to eq('Address1')
-  #   end
-  #
-  #   it 'should send a bad request if password or email is wrong' do
-  #     post :create, params: { type: 'signin', venue: { email: 'Email1', password: 'wrong password' } }
-  #
-  #     p response.body
-  #     expect(response['status']).to eq(400)
-  #   end
-  #
-  #   it 'creates a venue' do
-  #     post :create, params: { venue: { name: 'Venue1', address: 'Address1', email: 'Email1', password: 'Password1' } }
-  #     expect(Venue.find_by(name: 'Venue1')).to be
-  #   end
-
-  # end
 end
